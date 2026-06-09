@@ -1,0 +1,12 @@
+[Unit]
+Description=/etc/rc.shutdown
+Before=shutdown.target
+
+[Service]
+ExecStart=/bin/true
+ExecStop=/etc/rc.shutdown
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
