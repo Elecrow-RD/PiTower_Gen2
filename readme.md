@@ -1,3 +1,5 @@
+**Before configuration, please download the entire PiTowerGen2 file to your local system and place it on your desktop.**
+
 Pi5 Configuration Steps:
 
 step 1:
