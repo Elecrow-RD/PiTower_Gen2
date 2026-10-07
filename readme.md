@@ -1,3 +1,5 @@
+**Link to download the full image**：https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing
+
 **Before configuration, please download the entire PiTowerGen2 file to your local system and place it on your desktop.**
 
 Pi5 Configuration Steps:
