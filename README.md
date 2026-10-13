@@ -251,7 +251,3 @@ sudo /usr/bin/python3 -c "import rpi5_ws2812; print('RGB module: OK')"
 ## Contributing
 
 Issues and pull requests are welcome for hardware compatibility reports, installation improvements, and display or lighting enhancements. When reporting a problem, include the Raspberry Pi model, Raspberry Pi OS version, wiring details, and relevant `journalctl` output.
-
-## License
-
-The original documentation did not specify a license for this repository. Before redistributing or developing from this project, check the repository root and confirm the applicable upstream license terms.
