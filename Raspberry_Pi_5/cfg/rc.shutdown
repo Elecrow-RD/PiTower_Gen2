@@ -1,8 +1,0 @@
-#!/bin/bash
-#
-#rc.shutdown
-#
-
-python /usr/local/bin/shutdown.py
-
-exit 0
