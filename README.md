@@ -8,7 +8,9 @@ If you only want to use PiTower Gen2, do **not** run the custom-image configurat
 
 ### Download and flash the official full image
 
-[Download the PiTower Gen2 full image (Google Drive)](https://drive.google.com/file/d/1Hz1tj5P5F28kGbrU_98I7fz-OAsaYzZW/view?usp=sharing)
+[Download the PiTower Gen2 full image (Google Drive)](https://drive.google.com/drive/folders/1KoCKDflZ5MS2dmKSYOx2GHqjXR7aUxpp?usp=sharing)
+
+We provide full images for both the **Bookworm** and **Trixie** versions.
 
 The image includes the project files, Python dependencies, systemd services, and boot configuration. Use Raspberry Pi Imager, balenaEtcher, or a similar tool to flash it:
 
@@ -23,7 +25,7 @@ After the first boot, the LCD, RGB lighting, shutdown button, and safe-shutdown 
 
 ## Using your own Raspberry Pi image
 
-Follow this section only if you are installing PiTower Gen2 on your own Raspberry Pi OS image instead of using the official full image. Run the commands in the Raspberry Pi **Terminal**. The commands use `$HOME` to find the current user's home directory, so they work with usernames other than `pi`. The application itself is installed under `/opt/pitower-gen2`, avoiding user-specific paths in system services.
+Follow this section only if you are installing PiTower Gen2 on your own [Raspberry Pi OS image](https://www.raspberrypi.com/software/operating-systems/) instead of using the official full image. Run the commands in the Raspberry Pi **Terminal**. The commands use `$HOME` to find the current user's home directory, so they work with usernames other than `pi`. The application itself is installed under `/opt/pitower-gen2`, avoiding user-specific paths in system services.
 
 ### Requirements
 
