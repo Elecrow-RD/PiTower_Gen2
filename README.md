@@ -10,6 +10,9 @@ If you only want to use PiTower Gen2, do **not** run the custom-image configurat
 
 [Download the PiTower Gen2 full image (Google Drive)](https://drive.google.com/drive/folders/1KoCKDflZ5MS2dmKSYOx2GHqjXR7aUxpp?usp=sharing)
 
+- **Username**: pi
+- **Password**: 1
+
 We provide full images for both the **Bookworm** and **Trixie** versions.
 
 The image includes the project files, Python dependencies, systemd services, and boot configuration. Use Raspberry Pi Imager, balenaEtcher, or a similar tool to flash it:
