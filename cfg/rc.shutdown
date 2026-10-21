@@ -3,6 +3,6 @@
 #rc.shutdown
 #
 
-python /usr/local/bin/shutdown.py
+/usr/bin/python3 /usr/local/bin/shutdown.py
 
 exit 0

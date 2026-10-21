@@ -108,10 +108,10 @@ sudo install -m 0644 cfg/rgb_control.service /etc/systemd/system/rgb_control.ser
 Run the following commands in the Terminal:
 
 ```bash
-sudo install -m 0644 cfg/rc.shutdown /etc/rc.shutdown
-sudo install -m 0644 cfg/rcshutdown.service /etc/systemd/system/rcshutdown.service
+sudo install -m 0755 cfg/rc.shutdown /etc/rc.shutdown
+sudo install -m 0755 cfg/rcshutdown.service /etc/systemd/system/rcshutdown.service
 sudo install -m 0755 cfg/shutdown.py /usr/local/bin/shutdown.py
-sudo install -m 0644 cfg/shutdown.service /etc/systemd/system/shutdown.service
+sudo install -m 0755 cfg/shutdown.service /etc/systemd/system/shutdown.service
 sudo install -m 0755 cfg/shutdownsignal.py /usr/local/bin/shutdownsignal.py
 ```
 
